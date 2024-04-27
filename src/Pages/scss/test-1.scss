@@ -1,0 +1,136 @@
+$FigureColor: #7b7b7b;
+$ColHover: #ffa202;
+$TitleColor: #6bd97e;
+
+.Test1 {
+  margin-top: 5%;
+  width: 80vw;
+  height: 100vh;
+}
+
+.RowBox {
+  width: 80vw;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.RowSubBox {
+  margin-top: -45px;
+  width: 80vw;
+  height: auto;
+}
+
+.RowColSubBox {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TitleBox {
+  width: max-content;
+  padding: 0 15px;
+  border-radius: 15px;
+  color: white;
+  background-color: $TitleColor;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+}
+
+.ColBox {
+  cursor: pointer;
+  width: auto;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #888888;
+  transition: background-color 0.5s;
+}
+
+.ColSubBox {
+  width: auto;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ColBox:hover {
+  background-color: $ColHover;
+}
+
+.squareBox {
+  width: 120px;
+  height: 120px;
+  background: $FigureColor;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  background: $FigureColor;
+  border-radius: 50%;
+}
+
+.oval {
+  width: 250px;
+  height: 120px;
+  background: $FigureColor;
+  border-radius: 50%;
+}
+
+.trapezoid {
+  border-bottom: 120px solid $FigureColor;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 250px;
+}
+
+.rectangle {
+  width: 250px;
+  height: 120px;
+  background: $FigureColor;
+}
+
+.parallelogram {
+  width: 250px;
+  height: 120px;
+  transform: skew(30deg);
+  background: $FigureColor;
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-right: 120px solid $FigureColor;
+  border-bottom: 60px solid transparent;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-left: 120px solid $FigureColor;
+  border-bottom: 60px solid transparent;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 120px solid $FigureColor;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 120px solid $FigureColor;
+}
