@@ -1,3 +1,16 @@
+## Yarn Installs
+- yarn install
+- yarn add react react-dom
+
+## if error Cannot find module 'package name'
+- yarn remove 'package name'
+- yarn add 'package name'
+
+## start project
+- yarn dev
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
